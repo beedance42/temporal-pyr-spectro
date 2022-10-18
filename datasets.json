@@ -1,0 +1,123 @@
+{ 
+"Bridge":
+	{
+		"filepath_name": "bridge",
+		"dirpath": "/cluster/research-groups/wehrwein/webcam/bridge",
+		"form": "multi-video",
+		"baselvl": 0,
+		"fps": 30,
+		"vid_hrs_1day": 24,
+		"frames_per_vid": 432000,
+		"pyr_result_path": "/cluster/research-groups/wehrwein/timescale-results/pyramids/Bridge"	
+	},
+"BryantPark":
+	{
+		"filepath_name": "bryantpark",
+		"dirpath": "/cluster/research-groups/wehrwein/webcam/bryantpark",
+		"form": "multi-video",
+		"baselvl": 0,
+		"fps": 30,
+		"vid_hrs_1day": 24,
+		"frames_per_vid": 432000,
+		"pyr_result_path": "/cluster/research-groups/wehrwein/timescale-results/pyramids/BryantPark"	
+	},
+"Buxton":
+	{
+		"filepath_name": "buxtoncoastalcam",
+		"dirpath": "/cluster/research-groups/wehrwein/webcam/webcat/buxtoncoastalcam",
+		"form": "multi-video",
+		"baselvl": 0,
+		"fps": 30,
+		"vid_hrs_1day": 16,
+		"frames_per_vid": 18000,
+		"pyr_result_path": "/cluster/research-groups/wehrwein/timescale-results/pyramids/Buxton"
+	},
+"Geiranger":
+	{
+		"filepath_name": "geiranger",
+		"dirpath": "/cluster/research-groups/wehrwein/webcam/geiranger",
+		"form": "multi-video",
+		"baselvl": 0,
+		"fps": 30,
+		"vid_hrs_1day": 24,
+		"frames_per_vid": 432000,
+		"pyr_result_path": "/cluster/research-groups/wehrwein/timescale-results/pyramids/Geiranger"	
+	},
+"Hiuchi":
+	{
+		"filepath_name": "hiuchi",
+		"dirpath": "/cluster/research-groups/wehrwein/webcam/japan/datasets/hiuchi",
+		"form": "images",
+		"baselvl": 11,
+		"fps": 0.0002777777777777778,
+		"vid_hrs_1day": 16,
+		"frames_per_vid": 1,
+		"pyr_result_path": "/cluster/research-groups/wehrwein/timescale-results/pyramids/Hiuchi"	
+	},
+"Kutcharoko":
+	{
+		"filepath_name": "kutcharoko",
+		"dirpath": "/cluster/research-groups/wehrwein/webcam/japan/datasets/kutcharoko",
+		"form": "images",
+		"baselvl": 11,
+		"fps": 0.0002777777777777778,
+		"vid_hrs_1day": 16,
+		"frames_per_vid": 1,
+		"pyr_result_path": "/cluster/research-groups/wehrwein/timescale-results/pyramids/Kutcharoko"	
+	},
+"MadRiver":
+	{
+		"filepath_name": "madriver",
+		"dirpath": "/cluster/research-groups/wehrwein/webcam/madriver",
+		"form": "multi-video",
+		"baselvl": 0,
+		"fps": 30,
+		"vid_hrs_1day": 24,
+		"frames_per_vid": 432000,
+		"pyr_result_path": "/cluster/research-groups/wehrwein/timescale-results/pyramids/MadRiver"
+	},
+"MidMountain":
+	{
+		"filepath_name": "midMountain",
+		"dirpath": "/cluster/research-groups/wehrwein/webcam/midMountain",
+		"form": "multi-video",
+		"baselvl": 0,
+		"fps": 30,
+		"vid_hrs_1day": 24,
+		"frames_per_vid": 432000,
+		"pyr_result_path": "/cluster/research-groups/wehrwein/timescale-results/pyramids/MidMountain"
+	},
+"Rane":
+	{
+		"filepath_name": "rane",
+		"dirpath": "/cluster/research-groups/wehrwein/webcam/rane",
+		"form": "multi-video",
+		"baselvl": 0,
+		"fps": 30,
+		"vid_hrs_1day": 24,
+		"frames_per_vid": 432000,
+		"pyr_result_path": "/cluster/research-groups/wehrwein/timescale-results/pyramids/Rane"
+	},
+"Smoky":
+	{
+		"filepath_name": "smokylook",
+		"dirpath": "/cluster/research-groups/wehrwein/webcam/PhenoCam/smokylook",
+		"form": "images",
+		"baselvl": 11,
+		"fps": 0.0002777777777777778,
+		"vid_hrs_1day": 16,
+		"frames_per_vid": 1,
+		"pyr_result_path": "/cluster/research-groups/wehrwein/timescale-results/pyramids/Smoky"	
+	},
+"UWCherry":
+	{
+		"filepath_name": "uwcherry",
+		"dirpath": "/cluster/research-groups/wehrwein/webcam/uwcherry",
+		"form": "multi-video",
+		"baselvl": 0,
+		"fps": 30,
+		"vid_hrs_1day": 24,
+		"frames_per_vid": 432000,
+		"pyr_result_path": "/cluster/research-groups/wehrwein/timescale-results/pyramids/UWCherry"
+	}
+}
