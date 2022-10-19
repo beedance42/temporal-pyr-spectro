@@ -35,6 +35,10 @@ python pyramid_main.py Buxton pyr-multi-day -yr 2019
 ```
 python pyramid_main.py Buxton pyr-multi-year
 ```
+* Here is a high-level conceptual illustration of how the video frames are processed during the creation of one level of the pyramid:
+<img src='imgs/Pyramid_code_flowchart.png' align="center" width=600>
+
+<br>
 
 ## Reconstruct and upsample pyramid videos
 * Using already-built pyramid levels, reconstruct a copy of one level's Gaussian blur video using the following command:
