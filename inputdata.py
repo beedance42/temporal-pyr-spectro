@@ -212,6 +212,10 @@ class InputData():
 
     def get_reconstruct_path(self, recon_level, top_level, subtract, part=-1):
         base_path = self.pyr_result_path + "/reconstructions"
+        
+        if not os.path.exists(base_path):
+            os.mkdir(base_path)
+        
         if part == -1:
             part_str = ""
         else:
