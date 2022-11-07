@@ -10,10 +10,6 @@ import json
 import numpy as np
 import imageio
 from skimage.transform import resize
-
-import skvideo
-FFMPEGPATH = "/cluster/research-groups/wehrwein/ffmpeg-share"
-skvideo.setFFmpegPath(FFMPEGPATH)
 import skvideo.io
 
 SECS_PER_HOUR = 3600

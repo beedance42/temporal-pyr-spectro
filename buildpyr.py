@@ -8,10 +8,6 @@ import glob
 from queue import Queue
 
 import numpy as np
-
-import skvideo
-FFMPEGPATH = "/cluster/research-groups/wehrwein/ffmpeg-share"
-skvideo.setFFmpegPath(FFMPEGPATH)
 import skvideo.io
 
 
