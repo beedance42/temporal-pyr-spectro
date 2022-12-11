@@ -1,15 +1,12 @@
 # Video Temporal Pyramids and Video Spectrogram
-Code for the paper "Visualizing the Passage of Time with Video Temporal Pyramids" (https://arxiv.org/abs/2208.11885).
-
-The peer-reviewed Suppplementary Material for the paper can be found at https://drive.google.com/drive/folders/1YhUgYItT8MmhX2Sg4vu1XqmxlP84FtKy.
+* Paper: "*Visualizing the Passage of Time with Video Temporal Pyramids*" (https://arxiv.org/abs/2208.11885).
+* Peer-reviewed Suppplementary Material: https://drive.google.com/drive/folders/1YhUgYItT8MmhX2Sg4vu1XqmxlP84FtKy.
+* Project page: https://facultyweb.cs.wwu.edu/~wehrwes/TemporalPyramids/
 
 ## Data Preprocessing
-The datasets which were used in the paper can be downloaded from https://drive.google.com/drive/folders/178cKRUI5HBM_afJmBB9OBlzxZx9zJ4Pg (see datasets.json file for the metadata for these datasets, which is in the necessary format for the pyramid building code). If you want to use one of our provided datasets, you will need to update datasets.json with the appropriate filepaths after you download the data. Specifically, update the values for 'dirpath' (i.e., where the original data is being stored) and 'pyr\_result\_path' (i.e., where the processed pyramids will be stored).
+The datasets which were used in the paper can be downloaded from https://drive.google.com/drive/folders/178cKRUI5HBM_afJmBB9OBlzxZx9zJ4Pg (see datasets.json file for the metadata for these datasets, which is in the necessary format for the pyramid building code). If you want to use one of our provided datasets, you will need to update `datasets.json` with the appropriate filepaths after you download the data. Specifically, update the values for 'dirpath' (i.e., where the original data is being stored) and 'pyr\_result\_path' (i.e., where the processed pyramids will be stored).
 
-If you wish to build a pyramid from your own dataset, here are some important dataset preprocessing tips:
-* Videos need to be in .mp4 format. Images can be in any standard image format which can be read by imageio, such as .jpg or .png.
-* Insert an empty text file with a filename that ends in 'MISSING.txt' for each missing image or video. Use a consistent naming convention so that those placeholder files for missing data sort into the right order alongside the real data files.
-* The code has been optimized for 24-hours-per-day or 16-hours-per-day of data coverage. It should be able to handle 8-hours-per-day and 12-hours-per-day as well, but those options have not been tested.
+For building a pyramid from a custom dataset, see [Custom Datasets](docs/custom_dataset.md)
 
 ## Set up environment
 * For Video Temporal Pyramid code only: 
@@ -56,3 +53,14 @@ python pyramid_main.py Buxton reconstruct -top 22 -bot 10 -sub 11 12 13 14 15 16
 ## Build a video spectrogram
 ...coming soon!
 
+## Citation
+If you use this code for your research, please cite our paper.
+```
+@ARTICLE{Swift2022TemporalPyramids,  
+  author={Swift, Melissa E. and Ayers, Wyatt and Pallanck, Sophie and Wehrwein, Scott},  
+  journal={IEEE Transactions on Visualization and Computer Graphics},   
+  title={Visualizing the Passage of Time With Video Temporal Pyramids},   
+  year={2022},  
+  doi={10.1109/TVCG.2022.3209454}
+}
+```
